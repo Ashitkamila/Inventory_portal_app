@@ -1,0 +1,5 @@
+export const LOGIN_START = "LOGIN_START";
+export const LOGOUT_PAGE = "LOGOUT_PAGE";
+export const GET_SIDEBAR_MODULE = "GET_SIDEBAR_MODULE";
+
+

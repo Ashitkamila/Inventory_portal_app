@@ -1,0 +1,79 @@
+.pro-sidebar {
+  position: fixed !important;
+}
+.pro-sidebar-inner {
+  background: #fff !important;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+body {
+  font-family: "Inter" !important;
+}
+.pro-item-content {
+  font-size: 14px;
+  color: #4b515f;
+  transition: all 0.4s ease;
+  font-family: "Inter-medium";
+  img {
+    width: 18px;
+    margin-right: 12px;
+  }
+}
+.pro-menu {
+  li {
+    padding: 4px;
+  }
+  // li:hover {
+  //   background-color: #CECEEE;
+  //   margin-left: 0px;
+  // }
+}
+.pro-inner-item:hover {
+  background-color: #ceceee;
+  margin-left: 0px;
+}
+.pro-icon-wrapper {
+  background-color: unset !important;
+}
+.pro-icon {
+  font-size: 22px;
+  color: black;
+}
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+  background-color: unset !important;
+}
+
+.pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item > div > ul {
+  padding-left: 1rem;
+}
+.pro-sidebar {
+  left: 0;
+}
+.prcoessNameInput .form-inline {
+  position: relative;
+}
+.prcoessNameInput #outlined-basic {
+  position: absolute;
+  top: 75px;
+}
+.prcoessNameInput .chevron {
+  width: 1%;
+  margin-top: -12px;
+}
+.prcoessNameInput .bom-details {
+  padding-left: 20px !important;
+}
+
+#pro-item-content-active > .pro-inner-item > .pro-item-content {
+  color: #610094 !important; /* put any color you want */
+  font-weight: bold;
+}
+
+.pro-sub-menu.open {
+  background-color: #f0f0fb;
+}
+
+.pro-sub-menu.open > .pro-inner-item > .pro-item-content {
+  color: #610094 !important; /* put any color you want */
+  font-weight: bold;
+}

@@ -1,0 +1,10 @@
+.inputsection:focus {
+    outline: none !important;
+    border: 1px solid #018673;
+    box-shadow: 0 0 10px #719ece;
+  }
+  .inputsection1:focus {
+    outline: none !important;
+    border: 1px solid red;
+    box-shadow: 0 0 10px #719ece;
+  }
